@@ -1,0 +1,23 @@
+h1,h2{
+    text-align: center;
+    font-family: Narkisim;
+    color:blue ;
+    font-size: 50pt;
+}
+h2 {
+    color:aqua;
+    font-size: 30pt;
+}
+ul, div{
+    font-family: Andale Mono, monospace;
+    font-size: 20pt;
+}
+
+div {
+    border: 4px solid rgb(35, 67, 126);
+    background-color: rgb(217, 224, 230);
+    font-size: 19pt;
+    padding: 10px;
+    text-align: justify;
+    color: rgb(35, 67, 126);
+}

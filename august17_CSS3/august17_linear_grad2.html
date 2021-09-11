@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linear Gradient 2</title>
+    <style>
+         table
+        {
+            width:100%;
+            height:600px;
+            border:thin solid red;
+        }
+        td
+        {
+            height:150px;
+            width:25%;
+            border:thin solid red;
+            text-align:center;
+            color:white;
+            font-size: 24pt;
+        }
+        .top_left{
+            background-image: linear-gradient(to top left, blue, black);
+        }
+        .top_right{
+            background-image: linear-gradient(to top right, blue, black);
+        }
+        .bottom_left{
+            background-image: linear-gradient(to bottom left, blue, black);
+        }
+        .bottom_right{
+            background-image: linear-gradient(to bottom right, blue, black);
+        }
+        #multi{
+            width: 100%;
+            height:400px;
+            background-image: linear-gradient(to top left, lightgreen 20%, green 40%, lightcoral 25%, coral, red, yellow, tomato);
+        }
+    </style>
+</head>
+<body>
+    <h1>Diagonal Directions of Linear gradient</h1>
+    <div>
+        <table>
+            <tr>
+                <td class="top_left">Top Left</td>
+                <td class="top_right">Top Right</td>
+               
+            </tr>
+            <tr>
+                <td class="bottom_left">Bottom Left</td>
+                <td class="bottom_right">Bottom Right</td>
+            </tr>
+        </table>
+    </div>
+        <br><br>
+        <!-- Never use degree and direction together -->
+        <h1>Using angles in gradients</h1>
+        <table>
+            <tr>
+                <td style="background-image: linear-gradient(30deg, lightblue, purple);">Gradient at 30 degree</td>
+                <td style="background-image: linear-gradient(60deg, lightblue, purple);">Gradient at 60 degree</td>
+            </tr>
+            <tr>
+                <td style="background-image: linear-gradient(120deg, lightblue, blue);">Gradient at 120 degree</td>
+                <td style="background-image: linear-gradient(-120deg, lightblue, blue);">Gradient at -120 degree</td>
+            </tr>
+        </table>
+        <br><br>
+        <h1>Using multiple colors and using percentage for each other</h1>
+        <div id="multi">
+            <p>MULTIPLE COLORS AND VARIATION BY USING %</p>
+        </div>
+  
+</body>
+</html>

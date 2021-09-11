@@ -1,0 +1,15 @@
+img{
+    width: 400px;
+    height: 300px;
+}
+p~div{
+    border: thick solid red;
+    background-color: aquamarine;
+    font-size: 20pt; 
+}
+h1~div{
+    border: thick solid blue;
+    background-color: orangered;
+    color: white;
+    font-size: 20pt; 
+}

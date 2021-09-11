@@ -1,0 +1,11 @@
+.ques{
+    color: red;
+}
+
+.ans{
+    color: blue;
+}
+em{
+    text-decoration: underline;
+    background-color: rgb(138, 241, 97);
+}

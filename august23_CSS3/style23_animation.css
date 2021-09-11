@@ -1,0 +1,66 @@
+div{
+    margin: 20px;
+    width: 120px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50%;
+    animation-name: change; /* used to give a name to keyframe*/
+    animation-duration: 4s; /* timetaken to complete one cycle of animation*/
+    animation-delay: 2s; /* specifies to delay an animation */
+}
+
+@keyframes change
+/* here "change" refers to name of an animation (animation-name: change;) */
+{
+    from
+    {
+        border-radius: 50%;
+        /* background-color: blue; */
+    }
+    to
+    {
+        border-radius: 30%;
+        background-color: yellow;
+    }
+}
+
+/* move */
+.move{
+    margin-left: 40px;
+    width: 120px;
+    height: 150px;
+    background-color: rgba(128, 0, 128, 0.990);
+    border-radius: 0%;
+    animation-name: leftright; /* used to give a name to keyframe*/
+    animation-duration: 4s; /* timetaken to complete one cycle of animation*/
+    animation-delay: 2s; /* specifies to delay an animation */
+    animation-iteration-count: infinite; /* to run animation infinitely */
+    /* animation-iteration-count: 4; to run animation 4 times only */
+}
+@keyframes leftright
+{
+    0%{
+        margin-left: 40px;
+        background-color: rgba(128, 0, 128, 0.990);
+    }
+    20%{
+        margin-left: 50px;
+        background-color: rgba(128, 0, 128, 0.890);
+    }
+    40%{
+        margin-left: 60px;
+        background-color: rgba(128, 0, 128, 0.790);
+    }
+    60%{
+        margin-left: 70px;
+        background-color: rgba(128, 0, 128, 0.690);
+    }
+    80%{
+        margin-left: 80px;
+        background-color: rgba(128, 0, 128, 0.590);
+    }
+    100%{
+        margin-left: 90px;
+        background-color: rgba(128, 0, 128, 0.490);
+    }
+}

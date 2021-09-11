@@ -1,0 +1,8 @@
+#image1 {
+    border: thick solid rgb(11, 188, 241);
+}
+
+/* Apply to only img tag which has id = image2 and not applied to other tags(h1,p,....) who has that id */
+img#image2 {   
+    border: thick dashed rgb(247, 11, 3);
+}

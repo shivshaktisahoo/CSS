@@ -1,0 +1,35 @@
+div{
+    margin: 20px;
+    width: 1000px;
+    height: 220px;
+    background-color: aqua;
+    border: thin solid purple;
+   
+}
+div img{
+    margin: 10px;
+    padding: 15px;
+    float: left;
+
+}
+div p{
+    margin: 25px;
+    text-align: justify;
+    color: blue;
+    font-size: 12pt;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+#right img{
+    margin: 10px;
+    padding: 15px;
+    float:right;
+
+}
+#floatnone img{
+    margin: 10px;
+    padding: 15px;
+    float: none; /* text will appraer after image*/
+}

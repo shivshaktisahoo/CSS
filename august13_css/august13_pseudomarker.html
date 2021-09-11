@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Marker</title>
+    <style>
+       ul{
+           list-style-type: disc;
+       }
+       ol{
+           list-style-type: lower-alpha;
+       }
+       ul,ol{
+           font-size: 14pt;
+           color: red;
+       }
+
+       /* donot use selector in case of marker */
+       ::marker{
+           color: blue;
+           font-weight: bold;
+       }
+    </style>
+</head>
+<body>
+        <h1>The list type will change, as it uses pseudoelement ::marker. It works only for list elemnets</h1>
+        <h2>Unordered list- List style type will have different color</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <h2>Ordered list- List style type will have different color</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+</body>
+</html>

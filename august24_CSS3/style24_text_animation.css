@@ -1,0 +1,57 @@
+
+#hero{
+    top:120px;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('https://images.unsplash.com/photo-1500754088824-ce0582cfe45f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80') center center;
+    background-size: cover;
+    z-index: 10;
+}
+.overlay{
+    top: 15%;
+    left: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    position: absolute;
+    /* background-color: rgba(126, 118, 118, 0.438); */
+   z-index: 11; 
+}
+p{
+    color: orange;
+    font-size: 40pt;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 20pt;
+    opacity: 0;
+    animation: fadeinup 1s ease-in-out 2s forwards;
+    /* animation-name: fadeinup;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;  
+    animation-delay: 2s;
+    animation-fill-mode: forwards; */
+}    
+@keyframes fadeinup{
+    from
+    {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+.p1
+{
+    animation-delay: 2s;
+}
+.p2
+{
+    animation-delay: 4s;
+}
+.p3
+{
+    animation-delay: 6s;
+}

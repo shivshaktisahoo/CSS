@@ -1,0 +1,80 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#linear:hover{
+    animation-name: time;
+    animation-duration: 5s;
+    animation-timing-function: linear; /* same speed from start till end */
+}
+#ease:hover{
+    animation-name: time;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+#easein:hover{
+    animation-name: time;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+}
+#easeout:hover{
+    animation-name: time;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+}
+#easeinout:hover{
+    animation-name: time;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+}
+#cubicbezier{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    left: 150px; 
+}
+#cubicbezier:hover{
+    animation-name: bezier1;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(0.4, 0.9, 0.8, 1.0);
+    /* cubic-bezier(x1,y1,x2,y2); b/w 0.0 to 1.0 */
+    /* animation-iteration-count: infinite; */
+}
+@keyframes time {
+    from{
+        width: 100px;
+        background-color: blue;
+    }
+    to{
+        width: 300px;
+        background-color: red;
+   
+    }
+}
+
+@keyframes bezier1 {
+    0%{
+        top: 150px;
+        left: 150px;    
+    }
+    40%{
+        top: 130px;
+        left: 180px;  
+    }
+    60%{
+        top: 120px;
+        left: 210px;  
+    }
+    80%{
+        top: 100px;
+        left: 150px;  
+    }
+    100%{
+        top: 100px;
+        left: 150px;  
+    }
+}

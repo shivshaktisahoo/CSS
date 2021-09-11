@@ -1,0 +1,20 @@
+table{
+    width: 100%;
+    border: thick solid black;
+    background-color: aquamarine;
+}
+tr{
+    height: 250px;
+    color: purple;
+    font-weight: 20pt;
+}
+td{
+    background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    border: thick solid red;
+    font-weight: bold;
+}
+
+/* shorthand properrty of background */
+    /* background: background-color background-image background-repeat background-attachment background-position ; */
+    /* example- background:blue url('smiley.jpg') no-repeat scroll center top */

@@ -1,0 +1,53 @@
+#corner1{
+    width: 600px;
+    height: auto;
+    background-color:  darksalmon;
+    border-radius: 25px; /* to make rounded corners*/
+}
+#corner1 p{
+    color: white;
+    text-align: justify;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+/* using 2 values for border-radius */
+#corner2{
+    width: 800px;
+    height: auto;
+    background-image:  linear-gradient( skyblue, lightgreen);
+    border-radius: 5px 45px; /* 5px top-left corner & bottom-right, 45px for top-right and bottom-left*/
+}
+#corner2 p{
+    color: black;
+    text-align: justify;
+    font-size: 20pt;
+    padding: 20px;
+}
+
+
+#corner3{
+    width: 800px;
+    height: auto;
+    background-image:  radial-gradient( rgb(233, 230, 230) 30%, rgb(247, 45, 30));
+    border-radius: 15px 30px 50px; /* 15px top-left corner, 30px for top-right and bottom-left, 50px for bottom-right,*/
+}
+#corner3 p , #corner4 p{
+    color: black;
+    text-align: justify;
+    font-size: 20pt;
+    padding: 20px;
+}
+
+#corner4{
+    width: 800px;
+    height: auto;
+    background-image:  radial-gradient( rgb(99, 247, 30) 30%, rgb(233, 247, 30));
+    border-top-left-radius: 10px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 30px;
+    /* border-top-radius is shorthand property of border-top-left-radius and  border-top-right-radius*/
+    /* border-bottom-radius is shorthand property of border-bottom-left-radius and  border-bottom-right-radius*/
+    
+}

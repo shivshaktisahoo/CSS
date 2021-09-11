@@ -1,0 +1,27 @@
+input[type=text]:focus{ /* when any textbox will gain focus*/
+    background-color: lightblue;
+    border: thin solid red;
+    font-weight: bold;
+}
+
+input[type="radio"]:checked+label,
+input[type="checkbox"]:checked+span
+{ /* particularly for radio-buttons and checkboxes*/
+    font-weight: bold;
+    color: blue;
+}
+
+input:required,textarea:required{ /*will work only those inputs(textbox, textarea, select) which have required attribute*/
+    background-color: lightsalmon;
+}
+textarea:focus{ /*when textarea gain focus*/
+    background-color: lightblue;
+}
+select:focus{ /*when select gain focus*/
+    border: 2px solid red;
+}
+option:checked{
+    color: green;
+    font-weight: bold;
+    background-color: lightgreen;
+}

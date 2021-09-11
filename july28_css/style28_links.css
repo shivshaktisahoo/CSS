@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+    background-color: darkkhaki;
+}
+ul{
+    padding-left: 12px;
+    list-style: none;/* to remove bullets*/
+}
+a{
+    color: indigo;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:link  /*first state of link, that is normal and unvisited */
+{
+    color:red;
+}
+a:visited{  /*second state of link, that has clicked and visited */
+    color: green;
+}
+a:hover{  /*third state of link, when mouse has been placed over it */
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active{  /*fourth state of link, when it is clicked */
+    background-color: lightcoral;
+}

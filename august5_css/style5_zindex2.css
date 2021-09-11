@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    text-align: center;
+}
+#header{
+    position: fixed;
+    background: rgba(49, 48, 48, 0.274);
+    width: 100%;
+    height: 120px;
+    z-index: 9999;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 80px;
+}
+.logo a{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 104, 26);
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.nav{
+    float: right;
+    line-height: 80px; /* should be same as line-height of .logo */
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav ul li{
+    margin-right: 40px;
+    padding: 20px;
+    display: inline;
+}
+.nav ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 104, 26);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#hero{
+    top:120px;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url('https://images.unsplash.com/photo-1500754088824-ce0582cfe45f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80') center center;
+    background-size: cover;
+    z-index: 10;
+}
+.overlay{
+    top: 45%;
+    left: 33%;
+    position: absolute;
+    background-color: rgba(126, 118, 118, 0.438);
+    
+}
+.overlay p{
+    color: orange;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+#content{
+    width: 100%;
+    position: relative;
+    top:150px;
+}
+#content h2{
+    margin:0;
+    padding-top: 20px;
+    font-size: 35pt;
+    text-transform: uppercase;
+}
+#content p{
+    padding: 32px;
+    text-align: justify;
+    line-height: 25px;
+}

@@ -1,0 +1,40 @@
+h1{
+    text-transform: capitalize;
+    font-size: 30pt;
+}
+.serif{
+    font-family: 'Times New Roman', Times, serif;
+}
+.sansserif{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mono{
+    font-family: 'Courier New', Courier, monospace;
+}
+.cursive{
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.fstyle,.fvariant,.fweight,.fshort{
+    background-color: coral;
+    color: red;
+}
+p{
+    font-size: 16pt;
+    background-color: lightgreen;
+    color: blue;
+}
+.fvariant p{
+    font-size: 16pt;
+    background-color: lightgreen;
+    color: purple;
+}
+.fshort p{
+    background-color: skyblue;
+    color: purple;
+    /* shorthand of font:font-style font-variant font-weight font-size font-family; */
+    font: italic small-caps bold 20pt 'Arial',sans-serif;
+    /* if we use line-height in shorthand property of font */
+    /* shorthand of font:font-style font-variant font-weight font-size/line-height font-family; */
+    /* font: italic small-caps bold 20pt/10px 'Arial',sans-serif; */
+}

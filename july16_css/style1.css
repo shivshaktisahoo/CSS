@@ -1,0 +1,39 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    color: blueviolet;
+}
+div {
+    border: thick solid purple;
+}
+h1 {  /* will apply only where h1 is */
+    color: red;
+}
+
+/* descendant selector (syntax: parent child)*/
+div h1 {/* means h1 is child element of div i.e., h1 is inside div element */
+    color: green;
+}
+
+h1 em {
+    text-decoration: green underline;
+}
+
+div .para2 {
+    color: rgb(0, 26, 255);
+}
+
+/*------------------using parent element id with child element as descendant ---------- */
+/*--------- css for div id=colosseum ---------- */
+#colosseum h1{ /* where parent element id is colcsseum */
+    color: rgb(11, 224, 22);
+}
+#colosseum { /* this formatting will be applicable to every child elment of parent element tha have id as colosseum */
+    text-align: center;
+}
+#colosseum p { /* this formatting will be applicable to every child p elment of parent element tha have id as colosseum */
+
+    color:red;
+    text-align: justify;
+    font-size:14pt;
+}

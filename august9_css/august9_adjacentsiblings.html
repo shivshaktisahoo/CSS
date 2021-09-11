@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Siblings</title>
+    <style>
+        p{
+            background-color: lightblue;
+            color: blue;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        img+p{
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid purple;
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>Adjacent Siblings (+) -Every paragraph element immediately(adjacent to image) after image will be affected</h2>
+    <p>This paragraph is before image</p>
+    <p>This paragraph is before image</p>
+    <p>This paragraph is before image</p>
+    <img src="../images/bird.jpg" alt="bird">
+    <p>This paragraph is immediately(adjacent to image) after image. So it will be affected</p>
+    <p>This paragraph is after image</p>
+    <p>This paragraph is after image</p>
+    <p>This paragraph is after image</p>
+    <img src="../images/bird.jpg" alt="bird">
+    <p>This paragraph is immediately(adjacent to image) after image. So it will be affected</p>
+    <p>This paragraph is after image</p>
+    <p>This paragraph is after image</p>
+    <p>This paragraph is after image</p>
+    <img src="../images/bird.jpg" alt="bird">
+    <h1>This is heading</h1>
+    <p>This paragraph is not adjacent to image. So it will be unaffected</p>
+    <p>This paragraph is after image</p>
+    <p>This paragraph is after image</p>
+    <p>This paragraph is after image</p>
+    </body>
+</html>

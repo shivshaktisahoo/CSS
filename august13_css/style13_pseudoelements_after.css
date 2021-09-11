@@ -1,0 +1,13 @@
+p,a{
+    font-size: 18pt;
+}
+/* after pseudoelements */
+#afterh1::after{
+    content: url('../images/animated.gif');
+}
+#afterp::after{
+    content: url('../images/animated.gif');
+}
+#aftera::after{
+    content: url('../images/animated.gif');
+}

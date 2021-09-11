@@ -1,0 +1,41 @@
+.alphargb{
+    border: 2px solid green;
+}
+.alphargb .blue02{
+    background-color: rgba(0, 0, 255, 0.2);
+}
+.alphargb .blue04{
+    background-color: rgba(0, 0, 255, 0.4);
+}
+.alphargb .blue06{
+    background-color: rgba(0, 0, 255, 0.6);
+}
+.alphargb .blue08{
+    background-color: rgba(0, 0, 255, 0.8);
+}
+.alphargb .blue1{
+    background-color: rgba(0, 0, 255, 1);
+}
+
+/* HSL - Hue, Saturation, Light */
+/* Hue accepts value between 0 to 360(0 for RED, 120 for Green, 240 for Blue)
+ Saturation is percentage  value, The higher the value(100%), the darkest is colour or color is in pure from.
+ Lightnes is percentage value, The higher the value(100%), the lightest is colour  */
+.alphahsl{
+    border: 2px solid purple;
+}
+.alphahsl .green02{
+    background-color: hsla(120, 100%, 50%, 0.3);
+}
+.alphahsl .green04{
+    background-color: hsla(120, 100%, 50%, 0.4);
+}
+.alphahsl .green06{
+    background-color: hsla(120, 100%, 50%, 0.6);
+}
+.alphahsl .green08{
+    background-color: hsla(120, 100%, 50%, 0.8);
+}
+.alphahsl .green1{
+    background-color: hsla(120, 100%, 50%, 1);
+}

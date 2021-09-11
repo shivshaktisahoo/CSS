@@ -1,0 +1,19 @@
+body{
+    background-image: url('dj.png');
+    
+} 
+#div1{
+    height: 200px;
+    width:100%;
+    background-color: coral;
+}
+#div1,#div2 p{
+    background-color: aqua;
+    color:red;
+}
+/* to add background image to div */
+#div2{
+    height: 400px;
+    width: 100%;
+    background-image: url('pattern.jpg');
+}

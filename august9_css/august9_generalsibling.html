@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Siblings</title>
+    <style>
+        div,h1,p,img{
+            background-color: lightcoral;
+            border: thick solid blue;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        img~p{
+            background-color: lightgreen;
+            color: red;
+            font: 14pt 'Arial';
+            border: thick solid green;
+        }
+        div p{
+            background-color: cyan;
+            border: medium solid purple;
+            font: 14pt 'Arial';
+            color: olive;
+        }
+    </style>
+</head>
+<body>
+    <h2>General Siblings (~) -Every paragraph(sibling only)  after image is affected</h2>
+    <h1>This heading is child of body, but sibling of div,img and p</h1>
+    <p>This paragraph is child of body, but sibling of div, img and h1. It will be unaffected as it is before image</p>
+    <img src="../images/car.jpg" alt="car">
+    <div>
+        This division is child of body tag, but sibling of div, img and p
+        
+        <p>This paragraph is child of div</p>
+    </div>
+    <p>This paragraph is child of body, but sibling of div, img and h1. It is affected as it is after first image</p>
+    <p>This paragraph is child of body, but sibling of div, img and h1. It is affected as it is after first image</p>
+    <img src="../images/car.jpg" alt="car">
+    <p>This paragraph is child of body, but sibling of div, img and h1. It is affected as it is after second image</p>
+</body>
+</html>

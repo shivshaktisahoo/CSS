@@ -1,0 +1,48 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#forward:hover{
+    animation-name: time;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; /* same speed from start till end */
+}
+#backward:hover{
+    animation-name: time;
+    animation-duration: 5s;
+    animation-fill-mode: backwards; 
+    background-color: green;
+}
+#both{
+    background-color: yellow;
+    position: relative;
+    animation-name: bothfill;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: both; 
+}
+
+@keyframes time {
+    from{
+        width: 100px;
+        background-color: blue;
+    }
+    to{
+        width: 300px;
+        background-color: red;
+   
+    }
+}
+
+@keyframes bothfill {
+    from{
+        left: 100px;
+        background-color: brown;
+    }
+    to{
+        left: 300px;
+        background-color: salmon;
+   
+    }
+}

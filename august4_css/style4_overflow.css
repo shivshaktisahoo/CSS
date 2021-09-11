@@ -1,0 +1,62 @@
+#overflow{
+    width: 80%;
+    height: 110px;
+    background-color: coral;
+    color: blue;
+    text-align: justify;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;/*default property of every element*/
+}
+#hidden{
+    width: 80%;
+    height: 110px;
+    background-color: lightgreen;
+    color: blue;
+    text-align: justify;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;/* will hide the overflow part of element*/
+}
+
+#scroll{
+    width: 80%;
+    height: 110px;
+    background-color: skyblue;
+    color: blue;
+    text-align: justify;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;/* will scroll the content in the div to prevent from overflow */
+}
+#auto{
+    width: 80%;
+    height: 110px;
+    background-color: pink;
+    color:brown;
+    text-align: justify;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;/* almost similar to overflow:scroll but will add scrollbar if necessary */
+    /* if content gets fits in container, scrollbar in overflow: auto might not add */
+}
+#overflow_x{
+    width: 100px;
+    height: 110px;
+    background-color: coral;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: scroll;/*default property of every element*/
+}
+#overflow_y{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    color: blue;
+    text-align: justify;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: scroll;/*default property of every element*/
+}

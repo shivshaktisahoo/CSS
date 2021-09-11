@@ -1,0 +1,65 @@
+#reverse h3{
+    left:0px;
+    position: relative;
+    color: purple;
+    animation-name: rev;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes rev{
+    0%{
+        left: 0px;
+    }
+    30%{
+        left: 150px;
+    }
+    50%{
+        left: 200px;
+    }
+    80%{
+        left: 250px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+/* ================ alternate ================ */
+#alternate h3{
+    left:0px;
+    position: relative;
+    color: purple;
+    animation-name: alt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-direction: alternate-reverse; */
+
+}
+@keyframes alt {
+    0%{
+        left: 0px;
+        font-size: small;
+    }
+    20%{
+        left: 100px;
+        font-size: medium;
+    }
+    40%{
+        left: 200px;
+        font-size: large;
+    }
+    60%{
+        left: 400px;
+        font-size: x-large;
+    }
+    80%{
+        left: 600px;
+        font-size: xx-large;
+    }
+    100%{
+        left: 0px;
+        font-size: larger;
+    }  
+}

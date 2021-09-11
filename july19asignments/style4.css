@@ -1,0 +1,18 @@
+* {
+    font-size: 20pt;
+}
+table{
+    background-color: rgb(224, 224, 224);
+    padding-top: 2rem;
+    border-spacing: 10px 2px;
+    table-layout: fixed;
+    width: 100%;
+}
+thead {
+    background-color: rgb(27, 158, 191);
+    color: white;
+}
+td {
+    background-color: rgb(200, 205, 207);
+    height: 100px;
+}

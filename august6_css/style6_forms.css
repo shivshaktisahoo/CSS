@@ -1,0 +1,52 @@
+#userdetails{
+    margin: auto;
+    padding: 20px 30px;
+    width: 300px;
+    height: 200px;
+    background-color: cadetblue;
+    color: purple;
+    border: thin solid blue;
+}
+label{
+    padding: 10px;
+    font-size: 16pt;
+    font-weight: lighter;
+}
+input[type=text],[type=password]
+{
+    width: 80%;
+    height: 30px;
+    padding-top: 3px;
+    padding-left: 15px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: beige;
+    color: green;
+    font-size: 14pt;
+}
+input[type=submit]
+{
+    margin: 12px 40px;
+    padding: 10px 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgray;
+    font-size: 10pt;
+}
+input[type=submit]:hover{
+    text-decoration: underline;
+    font-size: 12pt;
+    background-color: rgb(3, 196, 3);
+    color: white;
+}
+input[type=text]:focus,[type=password]:focus{
+    background-color: rgba(131, 230, 255, 0.623);
+}
+
+/* input[type=text]:focus,[type=password]:focus
+{
+    border: 2px solid brown;
+    border-radius: 5px;
+} */

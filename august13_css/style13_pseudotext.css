@@ -1,0 +1,28 @@
+p.letter{
+    color: red;
+    background-color: lightgreen;
+    font:20pt 'Arial';
+    text-align: 'justify';
+}
+p.letter::first-letter{ /* is applicable on first-letter of paragraph */
+    color: blue;
+    /* background-color: lightseagreen; */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 300%;
+}
+p.firstline{
+    color: purple;
+    background-color: peru;
+    border: 2px solid blue;
+    font: 18pt 'Arial';
+    text-align: justify;
+}
+p.firstline::first-line{
+    color: green;
+    background-color: darkseagreen;
+    text-transform: uppercase;
+    border: 2px solid red;
+    font-style: italic;
+    font-size: 150%;
+}

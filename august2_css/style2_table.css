@@ -1,0 +1,37 @@
+table{
+    margin: 20px;
+    width: 80%;
+    height: 200px;
+    color: blue;
+}
+table,th,td{
+ border: 1px solid red;
+ /* border-collapse: collapse;   */
+ /* border-spacing should not be used when boreder-collapse: collapse; */
+ /* border-spacing: 15px ;  */
+
+ border-spacing: 25px 10px; /* first value is for horizontal spacing second value is for vertical spacing */ 
+}
+th{
+    height: 50px;
+    background-color: burlywood;
+    font-size: bolder;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+caption{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: 800;
+    text-decoration: underline;
+    color: brown;
+    text-transform: uppercase;
+}
+.empty{
+    empty-cells: hide;
+    /* be careful while using this property with rowspan and colspan */
+}

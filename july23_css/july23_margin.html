@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        p{
+            /* padding: 15px; */
+            
+            padding-top: 30px;
+            padding-left: 25px;
+            padding-bottom: 5px;
+            background-color: yellowgreen;
+            border: 2px solid black;
+            color:red;
+            font-size: 18pt;
+        }
+        /* Shorthand property of padding: top right bottom left */
+        /* padding:30px 10px 5px 25px
+           top=30px, right=10px bottom=5px left=25px 
+        */
+        /* if three values are defined padding will be top, right and left, bottom */
+        #para1{
+            padding: 50px 50px 20px;
+            /* max-width: 100%; */
+            background-color: yellow;
+            border: thick solid green;
+            color:black;
+            font-size: 18pt;
+        }
+        /* if two values are defined padding will be top & bottom, right and left */
+        #para2{
+            padding: 50px 30px;
+            /* max-width: 100%; */
+            background-color: yellow;
+            border: thick solid green;
+            color:black;
+            font-size: 18pt;
+        }
+        /* if auto defined in padding it centers horizontally and left, right paddings are distributed equally. Avoid use of width property when padding is auto */
+        #para3{
+            padding: auto;
+            /* max-width: 100%; */
+            background-color: aquamarine;
+            border: thick solid green;
+            color:black;
+            font-size: 18pt;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        First and foremost, make sure that you provide all your information i.e., your particulars in the
+        answer sheet correctly. Then once you are done completing your paper, check for the correct
+        numbering of all the answers as per the paper. Also, revise the answer sheet before submitting it
+        finally.First and foremost, make sure that you provide all your information i.e., your particulars in the
+        answer sheet correctly. Then once you are done completing your paper, check for the correct
+        numbering of all the answers as per the paper. Also, revise the answer sheet before submitting it
+        finally.
+    </p>
+    <p>
+        First and foremost, make sure that you provide all your information i.e., your particulars in the
+        answer sheet correctly. Then once you are done completing your paper, check for the correct
+        numbering of all the answers as per the paper. Also, revise the answer sheet before submitting it
+        finally.First and foremost, make sure that you provide all your information i.e., your particulars in the
+        answer sheet correctly. Then once you are done completing your paper, check for the correct
+        numbering of all the answers as per the paper. Also, revise the answer sheet before submitting it
+        finally.
+    </p>
+
+    <!-- <img src="car.jpg" alt="car"> -->
+
+    <p id="para1">
+        This paragraph uses 3 values of padding.
+    </p>
+    <p id="para2">
+        This paragraph uses 2 values of padding.
+    </p>
+    <p id="para3">
+        This paragraph uses auto padding.
+    </p>
+</body>
+</html>

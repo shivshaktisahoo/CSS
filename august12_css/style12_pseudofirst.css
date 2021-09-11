@@ -1,0 +1,43 @@
+.first{
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    color: indigo;
+    border: 2px dotted blue;
+}
+.first div p,.last div p{
+    font: 16px 'Verdana';
+}
+.first div p:first-of-type{ /* selects every paragraph that has appered first time element of parent */
+    border: 2px solid red;
+    color: green;
+}
+.last{
+    width: 100%;
+    height: auto;
+    background-color: lightgreen;
+    color: olive;
+    border: 2px dotted blue;
+}
+
+.last>div  p:last-of-type{/* selects every paragraph that has appered last time element of parent */
+    border: 2px solid red;
+    color: purple;
+}
+.only{
+    width: 100%;
+    height: auto;
+    background-color: coral;
+    color: olive;
+    border: 2px solid red;
+    font-size: 18pt;
+    color: darkgreen;
+}
+.only div>img{
+    width: 300px;
+    height: 300px;
+}
+.only div>img:only-of-type{ /* will work when there is no siblings*/
+   
+    border: thick solid blue;
+}

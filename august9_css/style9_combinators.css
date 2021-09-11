@@ -1,0 +1,15 @@
+div, h1, p{
+    background-color: coral;
+    border: medium solid green;
+    color: blue;
+}
+div h1{  /* child element of div-Descendant Selector*/
+    background-color: cyan;
+    border: medium solid red;
+    color: purple;
+}
+div p{  /* child element of div-Descendant Selector*/
+    background-color: cyan;
+    border: medium solid purple;
+    color: olive;
+}

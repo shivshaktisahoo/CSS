@@ -1,0 +1,39 @@
+.translate{
+    margin: 30px;
+    width: 200px;
+    height: auto;
+    background-color: blue;
+}
+.translate>p, .scale>p{
+text-align: center;
+font: 12pt 'Arial';
+color: white;
+}
+.translate:hover{
+    margin: 30px;
+    width: 200px;
+    height: auto;
+    background-color: blue;
+    -ms-transform: translate(220px, 50px);/* microsoft ie */
+    -webkit-transform: translate(220px, 50px); /* chrome & safari*/
+    -moz-transform: translate(220px, 50px);/* mozilla */
+    -o-transform: translate(220px, 50px);/* opera */
+
+    transform: translate(220px, 50px);/* it will move 220px from X-Axis(horizontal), 50px from Y-axis(vertical) */
+    /* transform: translateX(500px); */
+    /* transform: translateY(500px); */
+
+}
+.scale{
+    padding: 30px;
+    width: 200px;
+    height:60px;
+    background-color: coral;
+}
+.scale:hover{
+    -ms-transform: scale(3,4);
+    -webkit-transform: scale(3,4);
+    -moz-transform: scale(3,4);
+    -o-transform: scale(3,4);
+    transform: scale(3,4); /* It will increase 3 times of its width and 4 times of height*/
+}

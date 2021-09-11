@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+table{
+    width: 100%
+}
+table td,th { /* using group selectors to apply same foromatting to 2 or more elements */
+    border: 1px solid rgb(8, 103, 133);
+}
+thead, tfoot {
+    background-color: aqua;
+    color: crimson;
+}
+tbody{
+    text-align: center;
+}
+tfoot tr{
+    text-align: end;
+}
+caption{
+    font-size: 18pt;
+    color: chocolate;
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+*{
+    font-size: 18pt;
+}
+p{
+    font-weight: bold;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-type: disc;
+    /* background-color: brown; */
+}
+/* ul li{
+    background-color: coral;
+} */
+#listimage{
+    list-style-image: url('bullet_icon.png');
+}
+#inside{
+    border: thin solid red;
+    background-color: cornflowerblue;
+    list-style-position: inside;
+}
+
+#inside li{
+    border: thin solid blue;
+    background-color: darksalmon;
+}
+#outside{
+    border: thin solid red;
+    background-color: darkkhaki;
+    list-style-position: outside;
+}
+#outside li{
+    border: thin solid blue;
+    background-color: olive;
+}
+#shortul{
+    list-style: circle outside url('bullet_icon.png');
+    background-color: cornflowerblue;
+    border: thin solid red;
+}
+#shortul li{
+    border: thin solid blue;
+    background-color: darksalmon;
+}

@@ -1,0 +1,24 @@
+h1, div, p{
+    background-color: cornflowerblue;
+}
+img{
+    height: 250px;
+    width: 250px;   
+}
+/* ================== css1 starts ================= */
+div h1,div img, div p{ 
+    font-size: 18pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orangered;
+    border: thick solid blue;
+    color: white;
+} 
+/* ================== css1 ends ==================== */
+/* Alternative for css1 section using child selector */
+/* div>*{
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: orangered;
+    border: thick solid blue;
+    color: white;
+} */

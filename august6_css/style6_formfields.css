@@ -1,0 +1,51 @@
+fieldset{
+    border: medium solid darkgreen;
+    border-radius: 10px;
+}
+fieldset legend{
+    color: purple;
+    font-size: 18pt;
+    margin: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+}
+input[type=text]
+{
+    width: 200px;
+    height: 20px;
+    padding-left: 20px;
+    font: 10pt 'Arial';
+    color: firebrick;
+    border: none;
+    border-bottom: thin solid goldenrod;
+}
+select{
+    /* appearance: none; */
+    width: 80px;
+    height: 20px;
+    line-height: 10;
+    font: 10pt 'Arial';
+    color: firebrick;
+    padding: 2px;
+}
+input[type=radio],input[type=checkbox]
+{
+    font: 10pt 'Arial';
+    color: firebrick;
+    padding-left: 20px;
+}
+textarea{
+    resize: none;
+    font: 10pt 'Arial';
+    color: firebrick;
+    padding-left: 20px;
+}
+::placeholder{
+    font-weight: lighter;
+    text-align: center;
+}

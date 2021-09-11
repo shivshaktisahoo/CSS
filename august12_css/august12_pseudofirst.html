@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo first</title>
+    <link rel="stylesheet" href="style12_pseudofirst.css">
+</head>
+<body>
+     <!-- first starts -->
+    <div class="first">
+    <h1>This example uses first-of-type, that selects every first paragraph</h1>
+    <div>
+        This is first div
+        <p>This is first paragraph-It use first-of-type</p>
+        <p>This is second paragraph</p>
+    </div>
+    <div>
+        This is second div
+        <h1>this is heading 1</h1>
+        <p>This is first paragraph-It use first-of-type</p>
+        <p>This is second paragraph</p>
+    </div>
+    </div>
+    <!-- first ends -->
+    <br><br>
+    <!-- last starts -->
+    <div class="last">
+        <h1>This example uses last-of-type, that selects every last paragraph</h1>
+    <div>
+        This is first div
+        <p>This is first paragraph</p>
+        <p>This is second paragraph</p>
+        <p>This is third paragraph and last paragraph</p>
+    </div>
+    <div>
+        This is second div
+        <p>This is first paragraph</p>
+        <p>This is second paragraph</p>
+        <p>This is third paragraph</p>
+        <img src="../images/Colosseum-Rome-Italy.jpg" alt="Colosseum-Rome-Italy" width="300" height="300">
+        <p>This is last paragraph</p>
+    </div>
+    </div>
+    <!-- last ends -->
+    <br><br>
+    <!-- only starts -->
+    <div class="only">
+        <h1>This example uses only-of-type, This work when there is no sibling of child element.</h1>
+        <div>
+            This works when there is no sibling(same element) of image <br>
+            <img src="../images/Colosseum-Rome-Italy.jpg">
+        </div>
+        <div>
+            This will not work as there are more than one image <br>
+            <img src="../images/Colosseum-Rome-Italy.jpg"><br>
+            <img src="../images/Colosseum-Rome-Italy.jpg"><br>
+            <img src="../images/Colosseum-Rome-Italy.jpg"><br>
+
+        </div>
+    </div>
+    <!-- only ends -->
+</body>
+</html>

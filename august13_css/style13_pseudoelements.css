@@ -1,0 +1,12 @@
+p,a{
+    font-size: 18pt;
+}
+h1::before{
+    content: url('../images/animated.gif');
+}
+p::before{
+    content: url('../images/animated.gif');
+}
+a::before{
+    content: url('../images/animated.gif');
+}

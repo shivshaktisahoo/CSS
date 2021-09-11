@@ -1,0 +1,15 @@
+body{
+    background-image: url('images.jpg');
+    /* background-repeat: no-repeat; */
+
+    /* to repeat an image vertically */
+    /* background-repeat: repeat-y; */
+
+    /* to repeat an image horizontally */
+    /* background-repeat: repeat-x; */
+    /* to add space b/w repeated */
+    /* background-repeat: space; */
+    /* to make repeating image stretch */
+    background-repeat: round;
+    
+}

@@ -1,0 +1,32 @@
+#first{
+    top:20px;
+    left: 40px;
+    position:relative;
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+    color: white;
+    /* border: thick solid ivory; */
+    z-index: 1;
+}
+#second{
+    top: 40px;
+    left: 50px;
+    height: 250px;
+    width: 400px;
+    background-color: greenyellow;
+    color: white;
+    /* border: thick solid ivory; */
+    z-index: 2;
+}
+#third{
+    height: 250px;
+    width: 400px;
+    background-color: saddlebrown;
+    color: white;
+    /* border: thick solid ivory; */
+    z-index: 3;
+}
+#second,#third{
+    position: absolute;
+}

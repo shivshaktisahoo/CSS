@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class- forms Examples</title>
+    <!-- <link rel="stylesheet" href="../august6_css/style6_formfields.css"> -->
+    <link rel="stylesheet" href="style11_form_pseudo.css">
+</head>
+<body>
+    <center><h1>Fieldset and legend Examples</h1></center>
+    <form>
+        <!-- Personal Details fieldset starts here -->
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+                <label for="fname">First Name </label>
+                <input type="text" name="fname" minlength="25" maxlength="50" placeholder="First Name" required>
+                <br><br>
+                <label for="lname">Last Name </label>
+                <input type="text" name="lname" minlength="25" maxlength="50" placeholder="Last  Name" required>
+                <br><br>
+                <label for="gender">Gender :</label>&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" value="Male"><label>Male</label>
+                <input type="radio" name="gender" value="Female"><label>Female</label>
+                <br><br>
+                <label for="dob">Date of Birth</label>&nbsp;&nbsp;&nbsp;
+                <select>
+                    <option selected>Date</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>&nbsp;&nbsp;&nbsp;
+                <select>
+                  <option selected>Month</option>
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>Mar</option>
+        <option>Apr</option>
+        <option>May</option>
+    </select>&nbsp;&nbsp;&nbsp;
+    <select>
+        <option selected>Year</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+    </select><br><br>
+
+    <label for="hobbies">Hobbies</label>&nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="hobbies" value="Male"><span>Reading</span> &nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="hobbies" value="Female"><span>Music</span> &nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="hobbies" value="Female"><span>Coins Collections</span> &nbsp;&nbsp;&nbsp;
+    <br><br><br>
+    <label for="addr">Address</label>
+    <textarea name="addr" rows="4" cols="20" placeholder="Enter your address" required></textarea>
+</fieldset>               <!-- Personal Details fieldset ends here -->
+    
+    <br><br>
+            <!-- Educational Qualification fieldset starts here -->
+    <fieldset>
+        <legend><b>Educational Qualification</b></legend>
+            <label for="clas10">Highschool percentage</label>
+            <input type="text" name="class" required><br><br>          
+              <label for="year">Passing year</label>    
+             <input type="text" name="year" required><br>
+    </fieldset>               <!-- Educational Qualification fieldset ends here -->  
+
+    <br><br>
+    <center><input type="submit" value="SUBMIT"></center>
+    </form>
+
+</body>
+</html>
